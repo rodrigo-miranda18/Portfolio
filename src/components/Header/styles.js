@@ -6,6 +6,19 @@ export const Container = styled.div`
   justify-content: space-between;
 
   height: 6rem;
+  padding: 0 9.25rem;
+
+  @media (max-width: 880px) {
+    padding: 0 7rem;
+  }
+
+  @media (max-width: 650px) {
+    padding: 0 4rem;
+  }
+
+  @media (max-width: 425px) {
+    padding: 0 2rem;
+  }
 `
 
 export const Title = styled.h2``
