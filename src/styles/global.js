@@ -19,8 +19,45 @@ const GlobalStyle = createGlobalStyle`
     --white: #fff;
   }
 
+  @media (max-width: 2600px) {
+    html {
+      font-size: 150%;
+    }
+  }
+
+  @media (max-width: 2000px) {
+    html {
+      font-size: 125%;
+    }
+  }
+
+  @media (max-width: 1740px) {
+    html {
+      font-size: 100%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    html {
+      font-size: 87.5%;
+    }
+  }
+
   body {
     background: var(--black-100);
+    padding: 0 9.25rem;
+
+    @media (max-width: 880px) {
+      padding: 0 7rem;
+    }
+
+    @media (max-width: 650px) {
+      padding: 0 4rem;
+    }
+
+    @media (max-width: 425px) {
+      padding: 0 2rem;
+    }
   }
 
   h1, h2, h3, h4 {
@@ -28,7 +65,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p, span {
-    color: var(---gray);
+    color: var(--gray);
   }
   
   button, a {
