@@ -29,8 +29,6 @@ const Presentation = () => (
       <Image
         src="/images/computer-illustration.png"
         alt="Computer illustration"
-        width="300"
-        height="222.78"
         layout="fill"
         objectFit="cover"
         unoptimized={true}
