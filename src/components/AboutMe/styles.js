@@ -20,4 +20,5 @@ export const Title = styled.h2`
 export const Text = styled.p`
   text-align: center;
   line-height: 1.7rem;
+  font-size: 0.85rem;
 `
