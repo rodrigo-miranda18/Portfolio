@@ -3,11 +3,17 @@ import styled from 'styled-components'
 export const Container = styled.ul`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
-  margin-top: 9rem;
+  margin-top: 5rem;
 
-  @media (max-width: 650px) {
+  @media (max-width: 660px) {
+    width: 80%;
+  }
+
+  @media (max-width: 480px) {
     flex-direction: column;
+    align-items: center;
   }
 `
 
@@ -21,9 +27,6 @@ export const Card = styled.li`
 
   @media (max-width: 768px) {
     width: 10rem;
-  }
-
-  @media (max-width: 650px) {
     margin-bottom: 50px;
   }
 `
