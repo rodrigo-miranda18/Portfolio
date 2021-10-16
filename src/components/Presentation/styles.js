@@ -5,6 +5,7 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  margin-top: 3.5rem;
   gap: 14rem;
 
   @media (max-width: 1024px) {

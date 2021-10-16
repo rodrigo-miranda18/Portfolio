@@ -5,8 +5,13 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  position: fixed;
+  z-index: 2;
+
+  width: 100%;
   height: 6rem;
   padding: 0 9.25rem;
+  background: var(--black-100);
 
   @media (max-width: 880px) {
     padding: 0 7rem;
@@ -64,6 +69,11 @@ export const CloseButtonContainer = styled.div`
 
 export const Link = styled.a`
   color: var(--gray);
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-decoration: none;
+
+  :hover {
+    transition: 0.4s;
+    color: var(--purple);
+  }
 `

@@ -32,9 +32,15 @@ const Header = () => {
           </CloseButtonContainer>
         )}
 
-        <Link href="#about">Sobre Mim</Link>
-        <Link href="#skills">Skills</Link>
-        <Link href="#projects">Projetos</Link>
+        <Link href="#about" onClick={() => setIsOpen(false)}>
+          Sobre Mim
+        </Link>
+        <Link href="#skills" onClick={() => setIsOpen(false)}>
+          Skills
+        </Link>
+        <Link href="#projects" onClick={() => setIsOpen(false)}>
+          Projetos
+        </Link>
       </Links>
     </Container>
   )
