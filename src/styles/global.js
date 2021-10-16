@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'DM Sans', sans-serif;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   :root {
     --black-100: #171717;
     --black-50: #212121;

@@ -1,7 +1,7 @@
 import { Container, Title, Text } from './styles'
 
 const AboutMe = () => (
-  <Container>
+  <Container id="about">
     <Title>Sobre mim</Title>
     <Text>
       Meu nome é Rodrigo Alves Miranda, tenho 18 anos, moro em Curitiba PR.

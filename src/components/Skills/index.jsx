@@ -37,7 +37,7 @@ const Skills = () => {
   ]
 
   return (
-    <Container>
+    <Container id="skills">
       <Title>Skills</Title>
       <Cards>
         {cards.map(card => (

@@ -36,7 +36,7 @@ const Projects = () => {
   ]
 
   return (
-    <Container>
+    <Container id="projects">
       <Title>Projetos</Title>
 
       <Cards>

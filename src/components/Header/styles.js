@@ -65,4 +65,5 @@ export const CloseButtonContainer = styled.div`
 export const Link = styled.a`
   color: var(--gray);
   font-size: 1rem;
+  text-decoration: none;
 `

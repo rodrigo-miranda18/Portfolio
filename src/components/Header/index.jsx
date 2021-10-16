@@ -32,9 +32,9 @@ const Header = () => {
           </CloseButtonContainer>
         )}
 
-        <Link>Sobre Mim</Link>
-        <Link>Skills</Link>
-        <Link>Projetos</Link>
+        <Link href="#about">Sobre Mim</Link>
+        <Link href="#skills">Skills</Link>
+        <Link href="#projects">Projetos</Link>
       </Links>
     </Container>
   )

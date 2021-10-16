@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-  margin-top: 6rem;
+  padding-top: 6rem;
 `
 
 export const Title = styled.h2`

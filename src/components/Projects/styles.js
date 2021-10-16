@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  margin-top: 6.8rem;
+  padding-top: 6.8rem;
 `
 
 export const Title = styled.h2`
