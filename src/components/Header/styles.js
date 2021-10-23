@@ -51,6 +51,7 @@ export const Links = styled.div`
     height: 164px;
     background: var(--black-50);
     overflow: hidden;
+    box-shadow: 0px 0px 15px -4px #000000;
 
     position: fixed;
     top: 0;

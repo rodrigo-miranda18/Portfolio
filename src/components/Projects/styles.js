@@ -25,6 +25,11 @@ export const Card = styled.a`
   background: var(--black-50);
   text-decoration: none;
 
+  :hover {
+    border: 2px solid var(--purple);
+    margin-top: -10px;
+  }
+
   @media (max-width: 1024px) {
     width: 18rem;
   }
