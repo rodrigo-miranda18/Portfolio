@@ -28,7 +28,7 @@ const Header = () => {
             isOpen={isOpen}
             onClick={() => setIsOpen(false)}
           >
-            <IoIosClose size={30} color="var(--gray)" />
+            <IoIosClose size={45} color="var(--gray)" />
           </CloseButtonContainer>
         )}
 

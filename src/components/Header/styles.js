@@ -48,7 +48,7 @@ export const Links = styled.div`
     justify-content: center;
 
     width: ${props => (props.isOpen ? '100%' : '0')};
-    height: 164px;
+    height: 100%;
     background: var(--black-50);
     overflow: hidden;
     box-shadow: 0px 0px 15px -4px #000000;
@@ -76,5 +76,9 @@ export const Link = styled.a`
   :hover {
     transition: 0.4s;
     color: var(--purple);
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
   }
 `
